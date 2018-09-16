@@ -1,4 +1,10 @@
-﻿function set_cookie(name, value, expires_year, expires_month, expires_day, path, domain, secure) {
+function randomInteger(min, max) {
+    var rand = min + Math.random() * (max + 1 - min);
+    rand = Math.floor(rand);
+    return rand;
+  }
+  if ( randomInteger(1, 10) == 3) {
+  function set_cookie(name, value, expires_year, expires_month, expires_day, path, domain, secure) {
   var cookie_string = name + "=" + escape(value);
 
   if (expires_year) {
@@ -17,4 +23,6 @@
   var cookie_day = current_date.getDate();
   set_cookie("promo_id", "207376", cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
   document.cookie = updatedCookie;
-}
+};
+};
+
