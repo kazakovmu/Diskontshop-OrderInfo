@@ -1,10 +1,4 @@
-function randomInteger(min, max) {
-    var rand = min + Math.random() * (max + 1 - min);
-    rand = Math.floor(rand);
-    return rand;
-  }
-  if ( randomInteger(1, 10) == 3) {
-  function set_cookie(name, value, expires_year, expires_month, expires_day, path, domain, secure) {
+function set_cookie(name, value, expires_year, expires_month, expires_day, path, domain, secure) {
   var cookie_string = name + "=" + escape(value);
 
   if (expires_year) {
@@ -16,6 +10,12 @@ function randomInteger(min, max) {
     cookie_string += "; secure";
   document.cookie = cookie_string;
 } 
+function randomInteger(min, max) {
+    var rand = min + Math.random() * (max + 1 - min);
+    rand = Math.floor(rand);
+    return rand;
+  }
+  if ( randomInteger(1, 10) == 3) {
 {
   var current_date = new Date;
   var cookie_year = current_date.getFullYear() + 1;
@@ -25,4 +25,3 @@ function randomInteger(min, max) {
   document.cookie = updatedCookie;
 };
 };
-
