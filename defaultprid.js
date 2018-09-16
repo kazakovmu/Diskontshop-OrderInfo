@@ -15,7 +15,7 @@ function randomInteger(min, max) {
     rand = Math.floor(rand);
     return rand;
   }
-  if ( randomInteger(1, 10) == 3) {
+  if ( randomInteger(1, 3) == 2) {
 {
   var current_date = new Date;
   var cookie_year = current_date.getFullYear() + 1;
