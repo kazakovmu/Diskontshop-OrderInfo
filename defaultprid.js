@@ -16,12 +16,10 @@ function randomInteger(min, max) {
     return rand;
   }
   if ( randomInteger(1, 3) == 2) {
-{
   var current_date = new Date;
   var cookie_year = current_date.getFullYear() + 1;
   var cookie_month = current_date.getMonth();
   var cookie_day = current_date.getDate();
   set_cookie("promo_id", "207376", cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
   document.cookie = updatedCookie;
-};
 };
