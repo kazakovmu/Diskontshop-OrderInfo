@@ -15,7 +15,7 @@ function randomInteger(min, max) {
     rand = Math.floor(rand);
     return rand;
   }
-  if ( randomInteger(1, 30) == 23) {
+  if ( randomInteger(1, 50) == 23) {
   var current_date = new Date;
   var cookie_year = current_date.getFullYear() + 1;
   var cookie_month = current_date.getMonth();
