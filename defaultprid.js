@@ -20,6 +20,6 @@ function randomInteger(min, max) {
   var cookie_year = current_date.getFullYear() + 1;
   var cookie_month = current_date.getMonth();
   var cookie_day = current_date.getDate();
-  set_cookie("promo_id", "207376", cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
+  set_cookie("promo_id", "", cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
   document.cookie = updatedCookie;
 };
