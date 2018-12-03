@@ -17,8 +17,8 @@ function randomInteger(min, max) {
   }
   if ( randomInteger(1, 100) == 23) {
   var current_date = new Date;
-  var cookie_year = current_date.getFullYear() + 1;
-  var cookie_month = current_date.getMonth();
+  var cookie_year = current_date.getFullYear();
+  var cookie_month = current_date.getMonth()+1;
   var cookie_day = current_date.getDate();
   set_cookie("promo_id", "207376", cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
   set_cookie("referer", "http%3A%2F%2Faway.vk.com%2Faway.php", cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
