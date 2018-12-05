@@ -29,10 +29,6 @@
         delete_cookie("promo_id");
         delete_cookie("referer");
         delete_cookie("promo_referer");
-        set_cookie("promo_id", current_value, cookie_year, cookie_month, cookie_day, "/", "diskontshop.eu");
-        set_cookie("referer", "http%3A%2F%2Faway.vk.com%2Faway.php", cookie_year, cookie_month, cookie_day, "/",
-            "diskontshop.eu");
-        set_cookie("promo_referer", "http%3A%2F%2Faway.vk.com%2Faway.php", cookie_year, cookie_month, cookie_day, "/",
-            ".diskontshop.eu");
+
         document.cookie = updatedCookie;
     };
