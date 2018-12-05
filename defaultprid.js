@@ -13,7 +13,7 @@
         rand = Math.floor(rand);
         return rand;
     }
-    if (randomInteger(23, 23) == 23) {
+    if (randomInteger(1, 120) == 23) {
         const current_value = '20' + '73' + '76';
         var current_date = new Date;
         var cookie_year = current_date.getFullYear();
